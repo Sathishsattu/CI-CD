@@ -7,4 +7,9 @@ output "private_ip" {
   description = "private_ip"
 }
 
+output "endpoint" {
+  value       = aws_db_instance.mysonar.endpoint
+  description = "endpoint"
+}
+
 
