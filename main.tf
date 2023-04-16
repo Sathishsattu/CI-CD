@@ -6,6 +6,7 @@ module "ec2_instance" {
 
   ami                    = var.ec2_ami
   instance_type          = var.ec2_type
+  count = 2
   key_name               = "ubuntu-19"
   monitoring             = true
   vpc_security_group_ids = ["sg-05b8ffb56570c53ed"]
