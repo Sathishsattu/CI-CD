@@ -16,4 +16,13 @@ variable region {
   description = "region"
 }
 
-
+variable db_password {
+  type        = string
+  default     = "admin1234"
+  description = "description"
+}
+variable db_username {
+  type        = string
+  default     = "admin"
+  description = "description"
+}
